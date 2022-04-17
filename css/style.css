@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.custom-container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+ul{	
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap:  1em;
+}
+
+li{
+	border:  1px solid;
+	list-style-type: none;
+	width: 50px;
+	height: 50px;
+}
+
+li:hover{
+	cursor: pointer;
+}
+
+.c-mark{
+	background-image: url(../images/c.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.x-mark{
+	background-image: url(../images/x.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.modal-bg{
+	background-color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
