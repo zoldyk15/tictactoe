@@ -74,11 +74,8 @@ $(document).ready(function(){
 			$(that).addClass('x-mark');
 		}
 
-		console.log("before: " + emptyBoxes);
 		let position = $(that).attr('position');
 		removeEmptySpots(position);
-		console.log("after: " + emptyBoxes);
-		console.log("====");
 
 		if(checkIfPlayerWins(position)){
 			let player = isCircleMark ? "Circle" : "X";
