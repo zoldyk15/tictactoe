@@ -28,7 +28,7 @@ li:hover{
 	cursor: pointer;
 }
 
-/*.c-mark{
+.c-mark{
 	background-image: url(../images/c.png);
 	background-size: cover;
 	background-position: center;
@@ -38,7 +38,7 @@ li:hover{
 	background-image: url(../images/x.png);
 	background-size: cover;
 	background-position: center;
-}*/
+}
 
 .modal-bg{
 	background-color: rgba(0, 0, 0, 0.8);
